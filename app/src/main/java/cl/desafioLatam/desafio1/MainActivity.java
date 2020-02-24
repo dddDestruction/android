@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private void open(){
         Intent i = new Intent(this,HomeActivity.class);
         startActivity(i);
+
         Toast.makeText(MainActivity.this, "Usuario ingresado con éxito", Toast.LENGTH_SHORT).show();
     }
     private void openRegistro(){
